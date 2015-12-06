@@ -138,6 +138,14 @@ hr.small-dark {
     transform: translate3d(0, 100%, 0);
   }
 }
+.about-padding {
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+.no-bottom {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 .intro-header {
   background-color: #ffffff;
   background: no-repeat center center;
@@ -406,6 +414,9 @@ section p {
 }
 .small-padding {
   padding: 40px 0;
+}
+.small-padding .no-bottom {
+  padding-bottom: 0;
 }
 .bg-dark {
   color: white;
